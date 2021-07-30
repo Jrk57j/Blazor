@@ -70,13 +70,27 @@ using Microsoft.JSInterop;
 #nullable disable
 #nullable restore
 #line 9 "C:\Users\jitwa\source\repos\Jrk57j\Blazor\PizzaWebPage\_Imports.razor"
-using PizzaWebPage;
+using System.ComponentModel;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 10 "C:\Users\jitwa\source\repos\Jrk57j\Blazor\PizzaWebPage\_Imports.razor"
+using System.ComponentModel.DataAnnotations;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Users\jitwa\source\repos\Jrk57j\Blazor\PizzaWebPage\_Imports.razor"
+using PizzaWebPage;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\jitwa\source\repos\Jrk57j\Blazor\PizzaWebPage\_Imports.razor"
 using PizzaWebPage.Shared;
 
 #line default

@@ -70,47 +70,40 @@ using Microsoft.JSInterop;
 #nullable disable
 #nullable restore
 #line 9 "C:\Users\jitwa\source\repos\Jrk57j\Blazor\PizzaWebPage\_Imports.razor"
-using PizzaWebPage;
+using System.ComponentModel;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 10 "C:\Users\jitwa\source\repos\Jrk57j\Blazor\PizzaWebPage\_Imports.razor"
-using PizzaWebPage.Shared;
+using System.ComponentModel.DataAnnotations;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\jitwa\source\repos\Jrk57j\Blazor\PizzaWebPage\Pages\FetchData.razor"
-using PizzaWebPage.Data;
+#line 11 "C:\Users\jitwa\source\repos\Jrk57j\Blazor\PizzaWebPage\_Imports.razor"
+using PizzaWebPage;
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/fetchdata")]
-    public partial class FetchData : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 12 "C:\Users\jitwa\source\repos\Jrk57j\Blazor\PizzaWebPage\_Imports.razor"
+using PizzaWebPage.Shared;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/pizzabuilder")]
+    public partial class PizzaCreator : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 39 "C:\Users\jitwa\source\repos\Jrk57j\Blazor\PizzaWebPage\Pages\FetchData.razor"
-       
-    private WeatherForecast[] forecasts;
-
-    protected override async Task OnInitializedAsync()
-    {
-        forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
-    }
-
-#line default
-#line hidden
-#nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private WeatherForecastService ForecastService { get; set; }
     }
 }
 #pragma warning restore 1591
